@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_mission"
+        android:enabled="true"
+        android:orderInCategory="0"
+        android:icon="@drawable/ic_mission"
+        android:title="Mission" />
+    <item
+        android:id="@+id/navigation_technician"
+        android:enabled="true"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_technician"
+        android:title="Technician" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:enabled="true"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile" />
+</menu>
